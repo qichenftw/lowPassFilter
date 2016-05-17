@@ -1,0 +1,24 @@
+﻿Low Pass Filter
+
+A C implementation of a low pass filter. An ideal low-pass filter takes
+an input signal, completely attenuates its components above the cutoff
+frequency, and passes everything below the cutoff frequency as its output
+signal.
+
+
+Parts:
+
+main.c – This file contains the main function which reads in the inputs.
+plot.py – This is a python script that enables visualization of the input signal
+          against the calculated output signal.
+
+
+To compile the code, use the following command:
+
+gcc –Wall –g main.c –o mp3 –lm
+To run your program, type:
+./mp3 > myoutone
+To compare your output to the solution, type:
+./compare testone.txt myoutone
+This takes the output and calculates how close it is to the correct output
+signal given the inputs in testone.txt. 
