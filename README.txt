@@ -16,9 +16,6 @@ plot.py – This is a python script that enables visualization of the input sign
 To compile the code, use the following command:
 
 gcc –Wall –g main.c –o mp3 –lm
-To run your program, type:
+
+To run program:
 ./mp3 > myoutone
-To compare your output to the solution, type:
-./compare testone.txt myoutone
-This takes the output and calculates how close it is to the correct output
-signal given the inputs in testone.txt. 
