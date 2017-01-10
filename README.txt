@@ -11,11 +11,3 @@ Parts:
 main.c – This file contains the main function which reads in the inputs.
 plot.py – This is a python script that enables visualization of the input signal
           against the calculated output signal.
-
-
-To compile the code, use the following command:
-
-gcc –Wall –g main.c –o mp3 –lm
-
-To run program:
-./mp3 > myoutone
