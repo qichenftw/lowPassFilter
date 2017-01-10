@@ -1,10 +1,6 @@
 ﻿Low Pass Filter
 
-A C implementation of a low pass filter. An ideal low-pass filter takes
-an input signal, completely attenuates its components above the cutoff
-frequency, and passes everything below the cutoff frequency as its output
-signal.
-
+A C implementation of a low pass filter.
 
 Parts:
 
